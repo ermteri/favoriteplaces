@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Favorit\nPlatser</string>
+
+    <string name="welcome">Hitta dina favoriter!</string>
+    <string name="title_activity_google_play_services">GooglePlayServicesActivity</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="position_label">Favoritplatser:</string>
+    <string name="title_activity_positions">PositionsActivity</string>
+    <!--string name="clear">Clear</string -->
+    <!-- Settings -->
+    <string name="pref_tracking">Inställningar</string>
+    <string name="pref_summary_tracking_distance">Storleken på den area som definerar en favoritplats. [m].</string>
+    <string name="pref_title_tracking_distance">Area storlek</string>
+    <string name="pref_summary_min_time_in_area">Den minsta tid som måste avverkats för att ett område ska bli klassat som favorit [s].</string>
+    <string name="pref_title_tracking_min_time_in_area">Minsta tid.</string>
+    <string name="pref_summary_tracking_interval">Hur ofta nuvarande position ska kontrolleras [s].</string>
+    <string name="pref_title_tracking_interval">Positionsintervall.</string>
+    <string name="title_activity_settings">Inställningar</string>
+    <string name="switch_tracker_on">På</string>
+    <string name="switch_tracker_off">Av</string>
+    <string name="pref_summary_max_favorites">Max antal favoriter att spara.</string>
+    <string name="pref_title_max_favorites">Antal favoriter</string>
+    <string name="pref_title_favorites_update">Skärmuppdateringsintervall.</string>
+    <string name="pref_summary_favorite_update">Hur ofta listan av favoriter ska uppdateras [s].</string>
+    <string name="pref_title_max_hits_outside_area">Träffar utanför området.</string>
+    <string name="pref_summary_max_hits_outside_area">Antal konsekutiva träffar utanför ett område innan området anses ha lämnats.</string>
+    <string name="pref_summary_min_hits_inside_area">Antal  träffar innanför ett område innan området anses kunna vara en favorit.</string>
+    <string name="pref_title_min_hits_inside_area">Träffar innanför området.</string>
+    <string name="pref_summary_show_location_data">Visa positionsdata.</string>
+    <string name="pref_title_show_location_data">Visa positionsdata.</string>
+    <string name="pref_title_location_accuracy">Positions nogrannhet.</string>
+    <string name="pref_summary_location_accuracy">Noggrannheten för en position om den ska accepteras. Om den sätts till 0.0 kommer alla positioner att accepteras [m].</string>
+    <string name="notavailable">Adressen är inte tillgänglig.</string>
+    <string name="version_not_found">Version gick inte att hitta.</string>
+    <string name="title_activity_maps">Favoritplatser</string>
+    <string name="noFavoritesFound">Inga favoriter hittades!</string>
+    <string name="description">Hitta dina favoriter.</string>
+    <string name="favorite_found">Favorit lagrad!</string>
+    <string name="action_share">Dela</string>
+    <string name="share_subject">Favoriter</string>
+    <string name="action_filter">Filtrera</string>
+    <string name="not_implemented">Ej implementerad!</string>
+    <string name="no_favorites_deleted">Inga favoriter raderades.</string>
+    <string name="confirm_delete">Radera favoriter?</string>
+    <string name="confirm_delete_message">Är du säker på att du vill radera alla favoriter?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="title_activity_calendar">Välj datum</string>
+    <string name="title_activity_filter">Skapa filter</string>
+    <string name="allDates">Alla datum visas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="about_app">Om</string>
+    <string name="app_version_value">0.0</string>
+    <string name="app_version">Version</string>
+    <string name="title_activity_list">Favoritlista</string>
+    <string name="action_help">Hjälp</string>
+    <string name="current_position">Nuvarande position</string>
+    <string name="todayonly">Endast dagens favoriter</string>
+    <string name="today">Idag</string>
+    <string name="title_activity_help">Hjälp</string>
+    <string name="help_tracker_on">Startar och stoppar favorit detektering. Den fortsätter även efter det att appen avslutats.</string>
+    <string name="help_favorite_list">Visar en lista över alla lagrade favoriter (baserat på aktuellt filter).
+        Ett kort klick på favoriten och favoriten kan hanteras på följande sätt:\n
+        - Navigering\n
+        - Visa på karta\n
+        - Radera\n
+        - Ändra kategori och beskrivning\n
+        - Söka efter kända platser i närheten och ersätta den sparade favoriten med platsen.\n
+        Ett långt klick ger möjlighet att radera den valda favoriten.</string>
+    <string name="help_filter">Skapar ett filter för att välja vilka favoriter som ska visas på kartan och i listan. Filtrering kan ske genom
+        \n1) filtrera på ett specifikt datum eller alltid bara dagens datum
+        \n2) filtrera på kategori.
+        \n3) filtrera på text i address eller beskrivning.
+        \nRadera tar bort datumfiltret.
+        Kategori-, datum- och söktextfiltren kombineras så att de man väljer måste vara uppfyllda för att favoriten ska visas.</string>
+    <string name="help_trash">Radera favoriter eller datumfilter</string>
+    <string name="help_favorite">Anger en favorit på kartan. Ovanför kartan anger denna symbol adressen och tid för den senaste favoriten baserat på gällande filter. Ett klick på symbolen och kartans centrum sätts till favoritens position.</string>
+    <string name="help_current_position">Anger nuvarande position på en karta. Ovanför kartan anger denna symbol dess adress. Ett klick på symbolen och kartans centrum sätts till nuvarande position.</string>
+    <string name="help_help">Visar dennna hjälptext.</string>
+    <string name="help_settings">Inställningar. Varje inställning har en detaljerad beskrivning.</string>
+    <string name="help_share">Dela favoriter baserat på gällande filter till exempel till email. Funktionen är beroende av vilka appar som är installerade på enheten.</string>
+    <string name="help_introduction">
+        FavoritPlatser hjälper dig att identifiera och lagra platser du stannat en stund vid.
+        \nNär detekteringen körs så kontrolleras din enhets nuvarande position regelbundet. Om du stannar inom ett visst område (del av inställningarne) under en viss tid (del av inställningarna) lagras positionen, addressen (om tillgänglig), tidpunkt och spenderad tid som en favorit.
+        Lagrade favoriter kan senare visas på en karta eller i en lista.
+        \nOm en favorit klickas på i listan eller på kartan kan man ange till viken kategori den ska tillhöra, en av Shopping, Restaurang, Café eller Naturplats.
+        \n<i><b>Notera:</b> GPS behöver inte vara påslagen såvida inte nogrann positionering behövs. Många gånger räcker den positionsangivelse som radionätverket, wifi etc ger. Att inte använda GPS sparar batteriet.</i>
+        \n\nNedan är respektive funktion beskriven i mer detalj (se även beskrivningarna över inställningarna).\n
+        http://favoriteplaces.torsteneriksson.eu\n
+    </string>
+    <string name="help_title">FavoritPlatser</string>
+    <string name="confirm_delete_one">Radera favorit?</string>
+    <string name="confirm_delete_one_message">Är du säker att du vill radera denna favorit?</string>
+    <string name="other">Annat</string>
+    <string name="restaurant">Restaurang</string>
+    <string name="store">Shopping</string>
+    <string name="coffee">Café</string>
+    <string name="nature_spot">Naturplats</string>
+    <string name="allCategories">Alla kategorier</string>
+    <string name="help_categories">Anger vilken kategori favoriten tillhör, visas i violett (exemplet här är för en affär).</string>
+    <string name="title_activity_handle_favorite">Hantera favorit</string>
+    <string name="address">Address:</string>
+    <string name="latitude">Latitud:</string>
+    <string name="longitude">Longitud:</string>
+    <string name="datetime">Tidpunkt:</string>
+    <string name="timespent">Spenderad tid:</string>
+    <string name="select_category">Välj kategori</string>
+    <string name="takemethere">Ta mig dit!</string>
+    <string name="save">Save</string>
+    <string name="description_hint">Beskrivning av favorit.</string>
+    <string name="home">Hemma</string>
+    <string name="friend">Vänner</string>
+    <string name="attraction">Sevärdhet</string>
+    <string name="placelist">Platser i närheten</string>
+    <string name="find_within">Hitta platser inom:</string>
+    <string name="confirm_replace_position">Ersätt?</string>
+    <string name="confirm_replace_position_message">Ersätt nuvarande position med den valda?</string>
+    <string name="position_replaced">Positionen ersatt!</string>
+    <string name="position_not_replaced">Position inte ersatt!</string>
+    <string name="culture">Kultur</string>
+    <string name="noFavoriteFound">Ingen favorit hittades!</string>
+    <string name="position">Position:</string>
+    <string name="i">i</string>
+    <string name="current_position_not_found">Okänd!</string>
+    <string name="favorite_stored">Favorit sparad!</string>
+    <string name="service_not_started">Service ej startad!</string>
+    <string name="accuracy">Noggrannhet</string>
+    <string name="wait_connection">Väntar på position ...</string>
+    <string name="details">Detaljer</string>
+    <string name="last_favorite">Senaste favorit</string>
+    <string name="status">Status</string>
+    <string name="no_location_received_yet">Ej sparad!\nIngen position mottagen ännu!</string>
+    <string name="help_status">Visar nuvarande status på favorit detekterin. Red betyder att ingen favorit hittats. Blinkande grön betyder att en favorit kanditat hittas men att minimum tiden inte uppnåtts.
+        Fast grön betyder att den favorit detekterats och den väntar på att området lämnats så att total tiden som tillbringats kan lagras.</string>
+    <string name="help_save">Sparar nuvarande position som en favorit även om minimum tiden inte uppnåtts.</string>
+    <string name="delete_date_filter">Ta bort datum filter</string>
+    <string name="dont_exist">Finns ej</string>
+    <string name="filter_search">Sök:</string>
+    <string name="search_hint">text i address eller beskrivning</string>
+    <string name="not_all_shared">Endast de senaste 1000 favoriterna delas
+        på grund av för många favoriter</string>
+
+</resources>

@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Favorite\nPlaces</string>
+
+    <string name="welcome">Find your favorites!</string>
+    <string name="title_activity_google_play_services">GooglePlayServicesActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="position_label">Favorite places:</string>
+    <string name="title_activity_positions">PositionsActivity</string>
+    <!--string name="clear">Clear</string -->
+    <!-- Settings -->
+    <string name="pref_tracking">Settings</string>
+    <string name="pref_summary_tracking_distance">The size of an area that defines a favorite place. [m].</string>
+    <string name="pref_title_tracking_distance">Area size</string>
+    <string name="pref_summary_min_time_in_area">The minimum time spent in an area after which is considered to be a favorite [s].</string>
+    <string name="pref_title_tracking_min_time_in_area">Minimum time.</string>
+    <string name="pref_summary_tracking_interval">How often to check the current position [s].</string>
+    <string name="pref_title_tracking_interval">Location interval.</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="switch_tracker_on">On</string>
+    <string name="switch_tracker_off">Off</string>
+    <string name="pref_summary_max_favorites">Max number of favorites to store.</string>
+    <string name="pref_title_max_favorites">Number of favorites</string>
+    <string name="pref_title_favorites_update">Screen update time.</string>
+    <string name="pref_summary_favorite_update">How often the list of favorites should be updated [s].</string>
+    <string name="pref_summary_min_hits_inside_area">Number of hits inside the area before the area is considered to be a favorite</string>
+    <string name="pref_title_min_hits_inside_area">Hits inside area.</string>
+    <string name="pref_title_max_hits_outside_area">Hits outside area.</string>
+    <string name="pref_summary_max_hits_outside_area">Number of consecutive hits outside the area before the area is considered have been left.</string>
+    <string name="pref_summary_show_location_data">Show location data.</string>
+    <string name="pref_title_show_location_data">Show location data.</string>
+    <string name="pref_title_location_accuracy">Location accuracy.</string>
+    <string name="pref_summary_location_accuracy">The max accuracy for which a location shall be accepted. Set to 0.0 if all location data shall be used [m].</string>
+    <string name="notavailable">Address not available.</string>
+    <string name="version_not_found">Version not found.</string>
+    <string name="title_activity_maps">Favorite places</string>
+    <string name="noFavoritesFound">No favorites found!</string>
+    <string name="description">Find your favorite stores.</string>
+    <string name="favorite_found">Favorite found!</string>
+    <string name="action_share">Share</string>
+    <string name="share_subject">Favorites</string>
+    <string name="action_filter">Filter</string>
+    <string name="not_implemented">Not implemented!</string>
+    <string name="no_favorites_deleted">No favorites deleted.</string>
+    <string name="confirm_delete">Delete favorites?</string>
+    <string name="confirm_delete_message">Are you sure you want to delete all favorites?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_activity_calendar">Select date</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_filter">Create filter</string>
+    <string name="allDates">All dates are shown</string>
+    <string name="about_app">About</string>
+    <string name="app_version_value">0.0</string>
+    <string name="app_version">Version</string>
+    <string name="title_activity_list">List of favorites</string>
+    <string name="action_help">Help</string>
+    <string name="current_position">Current position</string>
+    <string name="todayonly">Today only</string>
+    <string name="today">Today</string>
+    <string name="title_activity_help">Help</string>
+    <string name="help_tracker_on">Start and stops the favorite locator. The locator continues to find favorites even after the app is closed.</string>
+    <string name="help_favorite_list">When clicked a list of all (all filtered) favorites. When a favorite is shortly clicked the favorite can be handled according to:\n
+        - Navigation\n
+        - Show on map\n
+        - Delete\n
+        - Change kategori and description\n
+        - Search for nearby known places and replace the saved favorite.\n
+        A long click gives the option to delete the selected favorite</string>
+    <string name="help_filter">Creates a filter on which favorites should be shown on the map and in the favorite list. Two options are possible.
+        \n1) filter on a specific date or current day.
+        \n2) filter on the category
+        \n3) filter on text in adress or description field of favorites.
+        \nClick on the trashcan to remove the date filter.
+        The category-, date and textsearch-filters are combined so those selected must be fulfilled for a favorite to be shown.</string>
+    <string name="help_trash">Delete favorites or filter.</string>
+    <string name="help_favorite">Indicates a favorite on the map that has not been given a category. Above the map this symbol shows the address of the last found favorite based on the current filter and when clicked the maps focus is moved to it.</string>
+    <string name="help_current_position">Indicates the current position on the map. Above the map its address is shown and when clicked the maps focus is moved to it. </string>
+    <string name="help_help">Displays this text.</string>
+    <string name="help_settings">Settings. Each setting has thourougly description.</string>
+    <string name="help_share">Share the favorites based the current filter for example to email. Depending of whats apps are installed.</string>
+    <string name="help_introduction">
+        FavoritePlaces lets you detect and store places you stayed in for a while.
+        \nWhen running it regularly checks the position of your unit. If you stay within a particular area (configurable) for longer than a particular time (configurable), its GPS position, address (if available) and time spent is stored.
+        The stored favorites can later be viewed on a map or in a list.
+        \n If a favorite is clicked on in the list or on the map, it can be given a category, one of Shopping, Restaurants, Café or Nature spot.
+        \n<i><b>Note:</b> The GPS must not be turned on unless high accuracy is wanted. Many times the position retrieved by the radio network, wifi etc. is sufficient. Not using GPS saves power.</i>
+        \n\nBelow are the different functions described in more detail (see also the descriptions in the settings).\n
+        http://favoriteplaces.torsteneriksson.eu\n
+    </string>
+    <string name="help_title">FavoritPlaces</string>
+    <string name="confirm_delete_one">Delete favorite?</string>
+    <string name="confirm_delete_one_message">Are you sure you want to delete this favorite?</string>
+    <string name="other">Other</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="store">Shopping</string>
+    <string name="coffee">Café</string>
+    <string name="nature_spot">Nature spot</string>
+    <string name="allCategories">All categories</string>
+    <string name="help_categories">Indicates which category the favorite has been selected for, shown in purple (example here is for a store).</string>
+    <string name="title_activity_handle_favorite">Handle favorite</string>
+    <string name="address">Adress:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="datetime">Time:</string>
+    <string name="timespent">Time spent:</string>
+    <string name="select_category">Select category</string>
+    <string name="takemethere">Take me there!</string>
+    <string name="save">Save</string>
+    <string name="description_hint">Description of favorite.</string>
+    <string name="home">Home</string>
+    <string name="friend">Friends</string>
+    <string name="attraction">Attraction</string>
+    <string name="placelist">Places nearby</string>
+    <string name="find_within">Find place within:</string>
+    <string name="confirm_replace_position">Replace?</string>
+    <string name="confirm_replace_position_message">Replace current position with the selected?</string>
+    <string name="position_replaced">Position replaced!</string>
+    <string name="position_not_replaced">Position not replaced!</string>
+    <string name="culture">Culture</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="noFavoriteFound">No favorite found!</string>
+    <string name="position">Position:</string>
+    <string name="i">in</string>
+    <string name="current_position_not_found">Unknown!</string>
+    <string name="favorite_stored">Favorite saved!</string>
+    <string name="service_not_started">Service not started!</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="wait_connection">Waiting for location ...</string>
+    <string name="details">Details</string>
+    <string name="last_favorite">Last favorite</string>
+    <string name="status">Status</string>
+    <string name="no_location_received_yet">Not saved!\\nNo location received yet!</string>
+    <string name="help_status">Indicates the current status of the favorite detection. Red means that no favorite candidate is found. Flashing green means favorite candidate is found but the minimum time has not been reached yet.
+        Stable green means a favorite is found and it waits for area to be left so total time spent can be stored.</string>
+    <string name="help_save">Saves current position as a favorite even if the time spent there has not been reached.</string>
+    <string name="delete_date_filter">Delete date filter</string>
+    <string name="dont_exist">Doesn\'t exist</string>
+    <string name="filter_search">Search:</string>
+    <string name="search_hint">text in adress or description</string>
+    <string name="not_all_shared">Only last 1000 favorites shared
+        due too many favorites</string>
+</resources>

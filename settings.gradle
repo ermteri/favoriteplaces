@@ -1,0 +1,3 @@
+include ':app', ':volley', ':picasso-pollexor', ':picasso-sample'
+project(':picasso-pollexor').projectDir = new File('picasso/picasso-pollexor')
+project(':picasso-sample').projectDir = new File('picasso/picasso-sample')

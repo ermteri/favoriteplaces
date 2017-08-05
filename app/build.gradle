@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        StoreTracker {
+            storeFile file('C:/Users/torsten/.android/release.keystore.jks')
+            keyAlias 'eu.torsteneriksson.storetracker'
+            keyPassword 'skruven7'
+            storePassword 'skruven7'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "eu.torsteneriksson.storetracker"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 18
+        versionName '1.8.0 alfa'
+        signingConfig signingConfigs.StoreTracker
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.StoreTracker
+        }
+        debug {
+            signingConfig signingConfigs.StoreTracker
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    // compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':volley')
+    //compile 'com.android.support:appcompat-v7:22.2.1'
+    //compile 'com.google.android.gms:play-services:7.5.0'
+    //compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.google.android.gms:play-services:9.4.0'
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.google.maps.android:android-maps-utils:0.4.4'
+}

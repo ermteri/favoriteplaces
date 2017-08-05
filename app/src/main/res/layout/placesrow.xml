@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_row="0"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/place_icon"
+            android:layout_width="@dimen/map_dot_marker_size"
+            android:layout_height="@dimen/map_dot_marker_size"
+            android:padding="2dp"
+            />
+        <TextView
+            android:id="@+id/place_name"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1">
+        <TextView
+            android:id="@+id/place_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
+    </LinearLayout>
+</GridLayout>

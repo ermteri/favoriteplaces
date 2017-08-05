@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_row"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/map_dot_marker_size"
+            android:layout_height="@dimen/map_dot_marker_size"
+            android:padding="2dp"
+            android:src="@drawable/ic_favorite"/>
+
+        <LinearLayout
+            android:id="@+id/list_row_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textAppearance="?android:attr/textAppearance"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:padding="2dp"
+                />
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginLeft="2dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

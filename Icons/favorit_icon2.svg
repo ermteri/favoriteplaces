@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg version="1.2" baseProfile="tiny" width="54.51mm" height="55.31mm" viewBox="5893 9370 5451 5531" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+ <defs>
+  <font id="EmbeddedFont_1" horiz-adv-x="2048">
+   <font-face font-family="Harlow Solid Italic embedded" units-per-em="2048" font-weight="bold" font-style="normal" ascent="1773" descent="794"/>
+   <missing-glyph horiz-adv-x="2048" d="M 0,0 L 2047,0 2047,2047 0,2047 0,0 Z"/>
+   <glyph unicode="F" horiz-adv-x="2144" d="M 1342,776 L 1448,776 1473,776 C 1560,776 1604,738 1604,662 1604,617 1587,579 1553,548 1519,517 1478,502 1428,502 L 1402,502 1240,502 1055,45 C 920,-288 718,-454 450,-454 309,-454 192,-408 99,-317 6,-226 -40,-112 -40,27 -40,133 -13,235 41,332 96,429 168,507 260,567 348,635 446,686 555,720 664,754 774,771 887,771 L 1015,775 1044,775 1228,1237 1241,1270 C 1256,1311 1277,1339 1304,1355 1331,1370 1373,1378 1432,1378 L 1935,1378 C 2040,1378 2092,1339 2092,1262 2092,1219 2075,1181 2041,1150 2006,1119 1965,1104 1916,1104 L 1890,1104 1485,1104 1342,776 Z M 943,502 L 910,502 C 722,502 571,459 459,374 336,279 274,173 274,55 274,-7 292,-58 329,-99 366,-140 412,-160 467,-160 599,-160 708,-52 796,164 L 943,502 Z"/>
+  </font>
+ </defs>
+ <g visibility="visible" id="Slide_1">
+  <g>
+   <path fill="rgb(0,0,255)" stroke="none" d="M 7816,10378 L 8675,11849 10371,11667 8897,12526 9078,14221 8220,12748 6523,12931 7998,12072 7816,10378 7816,10378 Z"/>
+   <path fill="none" stroke="rgb(128,128,128)" id="Drawing_1_0" stroke-linejoin="round" d="M 7816,10378 L 8675,11849 10371,11667 8897,12526 9078,14221 8220,12748 6523,12931 7998,12072 7816,10378 7816,10378 Z"/>
+   <rect fill="none" stroke="none" x="5893" y="9747" width="5110" height="5107"/>
+  </g>
+  <g id="Drawing_2">
+   <rect fill="none" stroke="none" x="6100" y="9369" width="5246" height="5533"/>
+   <g fill="rgb(0,204,0)" stroke="none" font-family="Harlow Solid Italic embedded" font-size="3387" font-style="normal" font-weight="700">
+    <g transform="translate(7241,13447) rotate(-16.9) translate(-7241,-13447)">
+     <text x="7241" y="13447">F</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
