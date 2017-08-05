@@ -3,7 +3,8 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         StoreTracker {
-            storeFile file('C:/Users/torsten/.android/release.keystore.jks')
+            //storeFile file('C:/Users/torsten/.android/release.keystore.jks')
+            storeFile file('C:/Users/torsten/Android/Projects/StoreTracker/release.keystore.jks')
             keyAlias 'eu.torsteneriksson.storetracker'
             keyPassword 'skruven7'
             storePassword 'skruven7'
@@ -18,6 +19,7 @@ android {
         versionCode 18
         versionName '1.8.0 alfa'
         signingConfig signingConfigs.StoreTracker
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -35,6 +37,7 @@ android {
 
 dependencies {
     // compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:multidex:1.0.0'
     compile project(':volley')
     //compile 'com.android.support:appcompat-v7:22.2.1'
     //compile 'com.google.android.gms:play-services:7.5.0'

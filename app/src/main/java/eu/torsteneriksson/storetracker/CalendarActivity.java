@@ -70,7 +70,7 @@ public class CalendarActivity extends Activity {
         calendar.setUnfocusedMonthDateColor(getResources().getColor(R.color.transparent));
 
         // sets the textsize of the dates
-        calendar.setDateTextAppearance(R.attr.textAppearanceListItemSmall);
+        //calendar.setDateTextAppearance(R.attr.textAppearanceListItemSmall);
 
         //sets the color for the separator line between weeks.
         calendar.setWeekSeparatorLineColor(getResources().getColor(R.color.darkgreen));
